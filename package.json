@@ -1,0 +1,18 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "First bite of ES6 - ES2015",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sampath Thennakoon",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.3.13",
+    "babelify": "^7.2.0"
+  },
+  "broweserify":{
+    "transform" : ["babelify"]
+  }
+}
